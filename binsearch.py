@@ -33,11 +33,7 @@ def binary_search(da_array: list, needle, left:int=0, right:int=-1) -> int:
         - returns `index`=-1 if `needle` is not in `da_array`
         - returns an int `index ` in [0:len(da_array)] if
           `index` is in `da_array`
-    ##INVARIANTS:
-        - If `needle` in `da_array`, needle in `da_array[rangemin:rangemax]`
-          is a loop invariant in the while loop below.
-
-
+   
     """
     if left==0:
         rangemin = 0
